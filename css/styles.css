@@ -52,3 +52,11 @@ body {
     left: 0;
     min-height: 300px;
 }
+
+#carouselButton {
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+    /*phần tử nào có z-index cao hơn thì được xếp cao hơn */
+}
