@@ -21,3 +21,11 @@ $("#carouselButton").click(function() {
         $("#carouselButton").children("span").addClass('fa-pause');
     }
 });
+
+$(".bureve").click(function() {
+    $("#modalform").modal('show');
+});
+
+$(".loginBtn").click(function() {
+    $("#loginModal").modal('show');
+});
